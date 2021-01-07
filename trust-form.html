@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_self">
+  <script>
+  function LoadFile(event)
+  {
+  
+  
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData").value = fileData;
+      document.getElementById("mimeType").value = mimeType;
+      document.getElementById("fileName").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+  function LoadFile2(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData2").value = fileData;
+      document.getElementById("mimeType2").value = mimeType;
+      document.getElementById("fileName2").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+   function LoadFile3(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData3").value = fileData;
+      document.getElementById("mimeType3").value = mimeType;
+      document.getElementById("fileName3").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+   function LoadFile4(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData4").value = fileData;
+      document.getElementById("mimeType4").value = mimeType;
+      document.getElementById("fileName4").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+   function LoadFile5(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData5").value = fileData;
+      document.getElementById("mimeType5").value = mimeType;
+      document.getElementById("fileName5").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+   function LoadFile6(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData6").value = fileData;
+      document.getElementById("mimeType6").value = mimeType;
+      document.getElementById("fileName6").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+   function LoadFile7(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData7").value = fileData;
+      document.getElementById("mimeType7").value = mimeType;
+      document.getElementById("fileName7").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+   function LoadFileEight(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData8").value = fileData;
+      document.getElementById("mimeType8").value = mimeType;
+      document.getElementById("fileName8").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+     function LoadFileNine(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData9").value = fileData;
+      document.getElementById("mimeType9").value = mimeType;
+      document.getElementById("fileName9").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+     function LoadFileTen(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData10").value = fileData;
+      document.getElementById("mimeType10").value = mimeType;
+      document.getElementById("fileName10").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+     function LoadFileEleven(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData11").value = fileData;
+      document.getElementById("mimeType11").value = mimeType;
+      document.getElementById("fileName11").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+     function LoadFileTwelve(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData12").value = fileData;
+      document.getElementById("mimeType12").value = mimeType;
+      document.getElementById("fileName12").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+      function LoadFile13(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData13").value = fileData;
+      document.getElementById("mimeType13").value = mimeType;
+      document.getElementById("fileName13").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+      function LoadFile14(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData14").value = fileData;
+      document.getElementById("mimeType14").value = mimeType;
+      document.getElementById("fileName14").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+      function LoadFile15(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData15").value = fileData;
+      document.getElementById("mimeType15").value = mimeType;
+      document.getElementById("fileName15").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+      function LoadFile16(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData16").value = fileData;
+      document.getElementById("mimeType16").value = mimeType;
+      document.getElementById("fileName16").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+      function LoadFile17(event)
+  {
+    var file = event.target.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      console.log(e.target.result);
+      var fileData = e.target.result.substr(e.target.result.indexOf(",")+1);
+      var mimeTypeStart = e.target.result.indexOf("data:") + 5;
+      var mimeTypeEnd = e.target.result.indexOf(";");
+      var mimeType = e.target.result.substr(mimeTypeStart, mimeTypeEnd - mimeTypeStart);
+      var fileName = file.name
+;
+      document.getElementById("fileData17").value = fileData;
+      document.getElementById("mimeType17").value = mimeType;
+      document.getElementById("fileName17").value = fileName;
+    };    
+    reader.readAsDataURL(file);
+    
+  }
+  
+  
+  </script>
+  <body>
+  <style>
+body {
+  color: black;
+}
+</style>
+   <h2 style="   background: linear-gradient(to right, darkblue, dodgerblue);">94GCTians Public Charitable Trust-Documents Upload Form </h2>
+    <?var url = getUrl();?>
+    <form method="post" action="<?= url ?>" >
+      <table cellpadding="1px">
+      <style> 
+input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: 2px solid white10;
+  border-radius: 7px;
+}
+</style>
+      <tr>
+      <td>
+      <label class="username">Name:</label>
+ <input type="text" id="username" name="username" required />
+
+<style>
+  .username:after {
+    content:" *";
+    color: red;
+  }
+</style>
+      
+      
+      </td>
+    
+    
+      </tr>
+      
+      
+      <tr>
+      
+      <td>
+    <label  class="department" for="dept" name="department"  required>Department:</label>
+
+<select id="dept" name="department" required>
+   <option value="SELECT">Select</option>
+  <option value="CSE">CSE</option>
+  <option value="ECE">ECE</option>
+  <option value="MECH">MECH</option>
+  <option value="CIVIL">CIVIL</option>
+  <option value="IBT">IBT</option>
+  <option value="EIE">EIE</option>
+  <option value="IT">IT</option>
+  <option value="PRODUCTION">PRODUCTION</option>
+  <option value="EEE">EEE</option>
+</select>
+  </td>
+  <style>
+  .department:after {
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+    
+      <tr>
+        <td>
+    <label class="academicyear" for="year" name="academicyear"  required >Academic Year:</label>
+
+<select id="year" name="academicyear" required>
+ <option value="SELECT">Select</option>
+   <option value="2020-2021">2020-2021</option>
+  <option value="2021-2022">2021-2022</option>
+  <option value="2022-2023">2022-2023</option>
+  <option value="2023-2024">2023-2024</option>
+
+ 
+</select>
+  </td>
+     <style>
+  .academicyear:after {
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      <tr>
+      
+            <td>
+    <label class="semester" for="sem"  name="semester" required >Academic Year:</label>
+
+<select id="sem" name="semester" required>
+ <option value="SELECT">Select</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  
+
+ 
+</select>
+  </td>
+      <style>
+  .semester:after {
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      <tr>
+      <td colspan="1" class="first">
+<style>
+td { 
+               height:39px; 
+                text-align:center; 
+               
+                padding:5px 
+              
+            } 
+td.first{display:block;width:2200;clear:both}
+td.first {
+   width: 100%;
+  
+}
+ </style>
+       <h5 style="   background: linear-gradient(to right, darkblue, dodgerblue);">Documents to Upload </h5>
+       </td>
+       </tr>
+      <tr>
+      <td class="file1">Hand Written Request Letter (Appendix-1):</td><br><br>
+      <td><input type="file"  name="file" onchange="LoadFile(event)"  required/>
+      <input type="hidden" id="fileData" name="fileData" />
+      <input type="hidden" id="mimeType" name="mimeType" />
+      <input type="hidden" id="fileName" name="fileName" /></td>
+      
+        <style>
+  .file1:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+    
+       <tr>
+      <td class="file2">Annual Request Form(Appendix-2):</td>
+      <td><input type="file"  name="file" onchange="LoadFile2(event)" />
+      <input type="hidden" id="fileData2" name="fileData2" />
+      <input type="hidden" id="mimeType2" name="mimeType2" />
+      <input type="hidden" id="fileName2" name="fileName2" /></td>
+      
+        <style>
+  .file2:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+       <tr>
+      <td class="file3">Bonafide Certificate:</td>
+      <td><input type="file"  name="file" onchange="LoadFile3(event)"  />
+      <input type="hidden" id="fileData3" name="fileData3" />
+      <input type="hidden" id="mimeType3" name="mimeType3" />
+      <input type="hidden" id="fileName3" name="fileName3" /></td>
+      
+        <style>
+  .file3:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      <tr>
+      <td class="file4">Fees structure (Current Academic Year):</td>
+      <td><input type="file" name="file" onchange="LoadFile4(event)" />
+      <input type="hidden" id="fileData4" name="fileData4" />
+      <input type="hidden" id="mimeType4" name="mimeType4" />
+      <input type="hidden" id="fileName4" name="fileName4" /></td>
+        <style>
+  .file4:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file5">Aadhar Card Copy:</td>
+      <td><input type="file" name="file" onchange="LoadFile5(event)" />
+      <input type="hidden" id="fileData5" name="fileData5" />
+      <input type="hidden" id="mimeType5" name="mimeType5" />
+      <input type="hidden" id="fileName5" name="fileName5" /></td>
+      
+        <style>
+  .file5:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file6">College ID Card Copy:</td>
+      <td><input type="file" name="file" onchange="LoadFile6(event)" />
+      <input type="hidden" id="fileData6" name="fileData6" />
+      <input type="hidden" id="mimeType6" name="mimeType6" />
+      <input type="hidden" id="fileName6" name="fileName6" /></td>
+      
+        <style>
+  .file6:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+       <tr>
+      <td class="file7">X Marksheet:</td>
+      <td><input type="file" name="file" onchange="LoadFile7(event)" />
+      <input type="hidden" id="fileData7" name="fileData7" />
+      <input type="hidden" id="mimeType7" name="mimeType7" />
+      <input type="hidden" id="fileName7" name="fileName7" /></td>
+        <style>
+  .file7:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file8">XII Marks sheet  :</td>
+      <td><input type="file" name="file" onchange="LoadFileEight(event)" />
+      <input type="hidden" id="fileData8" name="fileData8" />
+      <input type="hidden" id="mimeType8" name="mimeType8" />
+      <input type="hidden" id="fileName8" name="fileName8" /></td>
+        <style>
+  .file8:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file9">Transfer Certificate  (TC) :</td>
+      <td><input type="file" name="file" onchange="LoadFileNine(event)" />
+      <input type="hidden" id="fileData9" name="fileData9" />
+      <input type="hidden" id="mimeType9" name="mimeType9" />
+      <input type="hidden" id="fileName9" name="fileName9" /></td>
+        <style>
+  .file9:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+     
+     
+      <tr>
+      <td>First Graduate Certifcate(if applicable):</td>
+      <td><input type="file" name="file" onchange="LoadFileTen(event)"  />
+      <input type="hidden" id="fileData10" name="fileData10" />
+      <input type="hidden" id="mimeType10" name="mimeType10" />
+      <input type="hidden" id="fileName10" name="fileName10" /></td>
+      </tr>
+      
+       <tr>
+      <td class="file11">Counselling Letter for Seat Allotment :</td>
+      <td><input type="file" name="file" onchange="LoadFileEleven(event)"  />
+      <input type="hidden" id="fileData11" name="fileData11" />
+      <input type="hidden" id="mimeType11" name="mimeType11" />
+      <input type="hidden" id="fileName11" name="fileName11" /></td>
+        <style>
+  .file11:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file12"> College Admission letter:</td>
+      <td><input type="file" name="file" onchange="LoadFileTwelve(event)"  />
+      <input type="hidden" id="fileData12" name="fileData12" />
+      <input type="hidden" id="mimeType12" name="mimeType12" />
+      <input type="hidden" id="fileName12" name="fileName12" /></td>
+        <style>
+  .file12:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+      
+      <tr>
+      <td  class="file13">Income Certificate or last 3 month  salary slip :</td>
+      <td><input type="file" name="file" onchange="LoadFile13(event)"  />
+      <input type="hidden" id="fileData13" name="fileData13" />
+      <input type="hidden" id="mimeType13" name="mimeType13" />
+      <input type="hidden" id="fileName13" name="fileName13" /></td>
+        <style>
+  .file13:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+        
+      <tr>
+      <td class="file14">Tuition/Hostel/Mess/paid receipts in one pdf :</td>
+      <td><input type="file" name="file" onchange="LoadFile14(event)"  />
+      <input type="hidden" id="fileData14" name="fileData14" />
+      <input type="hidden" id="mimeType14" name="mimeType14" />
+      <input type="hidden" id="fileName14" name="fileName14" /></td>
+        <style>
+  .file14:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file15">Bank PassBook Front Page Copy :</td>
+      <td><input type="file" name="file" onchange="LoadFile15(event)" />
+      <input type="hidden" id="fileData15" name="fileData15" />
+      <input type="hidden" id="mimeType15" name="mimeType15" />
+      <input type="hidden" id="fileName15" name="fileName15" /></td>
+        <style>
+  .file15:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+       <tr>
+      <td class="file16"> Passport Size Photo:</td>
+      <td><input type="file" name="file" onchange="LoadFile16(event)"  />
+      <input type="hidden" id="fileData16" name="fileData16" />
+      <input type="hidden" id="mimeType16" name="mimeType16" />
+      <input type="hidden" id="fileName16" name="fileName16" /></td>
+        <style>
+  .file16:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+      
+       <tr>
+      <td class="file17">Family/Parents photo (in front of house):</td>
+      <td><input type="file" name="file" onchange="LoadFile17(event)"/>
+      <input type="hidden" id="fileData17" name="fileData17" />
+      <input type="hidden" id="mimeType17" name="mimeType17" />
+      <input type="hidden" id="fileName17" name="fileName17" /></td>
+        <style>
+  .file17:after {
+  padding-right: 3px;
+    content:" *";
+    color: red;
+  }
+</style>
+      </tr>
+       
+      
+      
+      
+      <tr>
+      <td colspan="2"><input type="submit" value="Submit"  /></td>
+      </tr>
+     
+      
+      
+      <tr>
+      <td colspan="2"><span><?= message ?></span></td>     
+      </tr>
+      </table>
+    </form>
+  </body>
+</html>
+
+
