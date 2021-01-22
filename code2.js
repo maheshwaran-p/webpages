@@ -1,5 +1,7 @@
 
 
+
+
 function doGet(e) {
  
   var htmlOutput =  HtmlService.createTemplateFromFile('UploadFile');
@@ -8,14 +10,14 @@ function doGet(e) {
 }
 
 
-function doPost(e) {
+function doPost(e,username) {
   
 
-  Logger.log(JSON.stringify(e));
+  Logger.log(JSON.stringify(e,username));
   //DriveApp.createFolder("testhi")
   var destination_id = '1PUiG-zBMRAGUuX7ypHx2-Di6y9rmkFo4';  // ID OF GOOGLE DRIVE DIRECTORY;
   var destination = DriveApp.getFolderById(destination_id);
- // var username = "e.parameter.fileName";
+  //var username = "e.parameter.fileName";
   //var destination2 =DriveApp.createFolder("Mahesh") ;
   var destination2=destination.createFolder(e.parameter.username)
 
@@ -116,7 +118,7 @@ function listRecord(username,department,academicyear,semester,accountholdername,
   var url = 'https://docs.google.com/spreadsheets/d/1OsGJRiNQQxdOjJvzXK4tMQXo90Gn6t3B7m0prwOkJAQ/edit#gid=0'; 
   var ss= SpreadsheetApp.openByUrl(url);
   var recordsSheet = ss.getSheetByName("Recordss");
-  recordsSheet.appendRow([e.parameter, username,department,academicyear,semester,accountholdername,accountnumber, bankname,branch,  ifsc,  micr,accounttype,consent,filename,filename2,filename3,filename4,filename5,filename6,filename7,filename8,filename9,filename10,filename11,filename12,filename13,filename14,filename15,filename16,filename17, new Date()]);
+  recordsSheet.appendRow([username,department,academicyear,semester,accountholdername,accountnumber, bankname,branch,  ifsc,  micr,accounttype,consent,filename,filename2,filename3,filename4,filename5,filename6,filename7,filename8,filename9,filename10,filename11,filename12,filename13,filename14,filename15,filename16,filename17, new Date()]);
 }
 
 function getUrl() {
